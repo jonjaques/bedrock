@@ -4,7 +4,8 @@
   "description": "[![Build Status](https://travis-ci.org/roots/bedrock.svg)](https://travis-ci.org/roots/bedrock)",
   "main": "index.js",
   "scripts": {
-    "postinstall": "./node_modules/gulp/bin/gulp.js build"
+    "postinstall": "./node_modules/gulp/bin/gulp.js build",
+    "start": "echo 'Running node'"
   },
   "repository": {
     "type": "git",
