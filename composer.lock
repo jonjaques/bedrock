@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "01a7f5019ca159d900babfcd6c03882f",
+    "hash": "521ef70309ff4bfbbf3a765fe32ccf59",
     "packages": [
         {
             "name": "composer/installers",
@@ -231,6 +231,86 @@
                 "environment"
             ],
             "time": "2015-05-30 16:15:01"
+        },
+        {
+            "name": "wpackagist-plugin/authy-two-factor-authentication",
+            "version": "2.5.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/authy-two-factor-authentication/",
+                "reference": "tags/2.5.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/authy-two-factor-authentication.2.5.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/authy-two-factor-authentication/"
+        },
+        {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "3.6.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/3.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
+            "version": "1.5.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/wpro",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wpro/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpro.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpro/"
         }
     ],
     "packages-dev": [],

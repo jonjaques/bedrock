@@ -1,0 +1,27 @@
+{
+  "name": "wp-cedar-stack",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/roots/bedrock.svg)](https://travis-ci.org/roots/bedrock)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonjaques/bedrock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonjaques/bedrock/issues"
+  },
+  "homepage": "https://github.com/jonjaques/bedrock#readme",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-sourcemaps": "^1.5.2",
+    "webpack": "^1.10.5"
+  }
+}
