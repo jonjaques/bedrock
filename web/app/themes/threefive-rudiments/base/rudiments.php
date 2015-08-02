@@ -120,7 +120,6 @@ if ( ! function_exists( 'rudiments_styles_and_scripts' ) ) {
 			// Rudiments master stylesheet.
 			wp_register_style( 'rudiments-stylesheet', $css_dir . 'master.css', array(), $version, 'all' );
 			// Rudiments overwrites stylesheet.
-			wp_register_style( 'rudiments-overwrites', $css_dir . 'overwrites.css', array(), $version, 'all' );
 			
 			
 			/**
@@ -140,7 +139,6 @@ if ( ! function_exists( 'rudiments_styles_and_scripts' ) ) {
 			// Header styles and scripts
 			wp_enqueue_script( 'rudiments-modernizr' );
 			wp_enqueue_style( 'rudiments-stylesheet' );
-			wp_enqueue_style( 'rudiments-overwrites' );
 
 			// Footer Scripts (the lat parameter in wp_register_script needs to be set to true).
 			wp_enqueue_script( 'jquery' );

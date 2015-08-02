@@ -18,6 +18,9 @@ var cssDist = path.resolve(buildSettings.theme, buildSettings.build.css)
 
 var compiler = webpack(webpackConfig);
 
+gulp.task('default', ['build'])
+gulp.task('build', ['build:js', 'build:css'])
+
 gulp.task('build:js', function(done) {
   compiler.run(handleStats(done));
 })
